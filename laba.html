@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Boosters</title>
+    <link rel="icon" type="image/x-icon" src="gameboosters.png">
+    <link rel="stylesheet" type="text/css" href="homePage.css">
+    <link rel="stylesheet" type="text/css" href="search.js">
+    <link rel="stylesheet" type="text/css" href="releases.css">
+    <link rel="stylesheet" type="text/css" href="contanct.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+    <body>
+    <center>
+        <header class=header>
+            <a href="laba.html"><img src="gameboosters.png" alt="Game Boosters" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="laba.html">Home</a></li>
+                    <li><a href="newsPage.html">News</a></li>
+                    <li><a href="more.html">More</a></li>
+                    
+                </ul>
+
+            </nav>
+        </header>
+    </center>
+
+    <div class="swiperdiv">   
+        <div class="swiperfloat">  
+            <table class="conter">
+                <th>
+                    <div class="titlee"> 
+                        <h1> Latest releases </h1>   
+                    </div>
+                </th>
+                <div class="tableborder">
+                    <tr class="right-image" id="maze-img">
+                        <td><img  class="img-box" src="maze.png"></td>
+                        <td><div class="textimg-box"> <p> Maze of Dist...</p> </div></td>
+                    </tr>
+                </div>
+                    <tr class="right-image" id="viridis-img">
+                        <td><img  class="img-box1" src="virdis.jpg"></td>
+                        <td><div class="textimg-box1"> <p> Viridis </p> </div> </p> </div></td>
+                    </tr>
+                    <tr class="right-image" id="pumpkin-img">
+                        <td><img  class="img-box2" src="pumpkinpie.jpg"> </td>
+                        <td><div class="textimg-box2"> <p> Pumpkin Pie </p> </div></div></td>
+                    </tr>
+            </table>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img id="image1" src="1.png"></div>
+                <div class="swiper-slide"><img id="image2" src="3.png"></div>
+                <div class="swiper-slide"><img id="image3" src="2.png"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+
+    </div>
+<div class="section primary-section" id="service">
+        <div class="conter"> 
+<div class="title">
+                    <div class="title1">
+                        <h1>About us</h1>
+                    </div>
+                        <p>Game Boosters is a game-development team based in Craiova, Romania within the Fratii Buzesti 
+                            National College. For now, Game Boosters is the first and only high school based team specialized 
+                            in game-development from Romania. We are participating at game-development contests quite regulary, so
+                             keep an eye on our social media accounts, which links you'll find below, and also you can keep an eye
+                              on our news section.</p>
+                            <center class="socialmedia">
+                                <a href="https://www.facebook.com/GameBoostersCNFB" class="fa-brands fa-facebook"></a>
+                                <a href="https://www.instagram.com/gameboosters.cnfb/" class="fa-brands fa-instagram"></a>
+                                <a href="#" class="fa-brands fa-twitter"></a>
+                            </center>
+                            <div class="contact">
+                                <div class="card">
+                                        <a class="fa fa-envelope"> </a>
+                                        <p class="contactinfo1">alexturcu2006@gmail.com</p>
+                                    </div>
+                            
+                                    <div class="card">
+                                        <a class="fa fa-phone"> </a>
+                                        <p class="contactinfo"> +40770263124 </p>
+                                    </div>
+                
+                                    <div class="card">
+                                        <a class="fa fa-location-dot"> </a>
+                                        <p class="contactinfo"> Craiova, Romania </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+
+        <div class="sponsors">
+            <p> Special thanks to our sponsors: </p>
+            <a href="https://www.all-audio.ro/"> <img id="bose" class="bose" src="Bose_PRO_Logo_Black.png"> </a>
+            <a href="https://www.prosep.com/"><img id="prosep" class="prosep" src="prosep.png"></a>
+            <a href="https://robestshop.ro/"><img id="robert" class="robert" src="robert.png"></a>
+        </div>
+        <div class="divgol"><p></p></div>
+</body>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteractionkey: false,
+            },
+        
+        loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+        </script>
+ 
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  loop: true,
+  autoplay: {
+    delay: 2000,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+</script>
+
+<script>
+var mazeImg = document.getElementById('maze-img');
+mazeImg.addEventListener('click', function() {
+swiper.slideTo(1, 1000);
+});
+
+</script>
+
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  loop: true,
+  autoplay: {
+    delay: 2000,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+</script>
+
+<script>
+var viridisImg = document.getElementById('viridis-img');
+viridisImg.addEventListener('click', function() {
+swiper.slideTo(2, 1000);
+});
+
+</script>
+
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  loop: true,
+  autoplay: {
+    delay: 2000,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+</script>
+
+<script>
+var pumpkinImg = document.getElementById('pumpkin-img');
+pumpkinImg.addEventListener('click', function() {
+swiper.slideTo(3, 1000);
+});
+
+</script>
