@@ -505,7 +505,7 @@ a {
 	margin-bottom: 700px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 .conter {
 width: 90%;
 }
@@ -520,7 +520,7 @@ font-size: 36px;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
 
 	.swiperdiv {
 
