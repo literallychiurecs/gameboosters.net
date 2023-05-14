@@ -556,3 +556,31 @@ font-size: 36px;
 }
 
 }
+
+@media (min-width: 1300px) and (max-width: 1900px) {
+            .swiperdiv {
+                margin-right: 5%;
+                margin-left: 5%;
+            }
+
+            .releases {
+                margin-right: 10%;
+                margin-top: 50px;
+                padding: 0 10px;
+            }
+
+            .news {
+                margin-left: 10%;
+                width: 80%;
+                margin-top: 50px;
+                padding: 0 10px;
+            }
+
+            .sponsors  {
+               margin-left: 40%;
+               margin-bottom: 10%;
+            }
+
+        }
+
+
