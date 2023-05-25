@@ -467,6 +467,8 @@ a {
     color: #FFF;
     font-weight: lighter;
     font-family: 'Verdana', sans-serif;
+    white-space: nowrap;
+        text-overflow: clip;
 }
 
 .bose {
@@ -477,6 +479,7 @@ a {
     backdrop-filter: blur(4.7px);
     width: 290px;
     height: 200px;
+    position: absolute;
 }
 
 .prosep {
@@ -487,18 +490,20 @@ a {
     backdrop-filter: blur(4.7px);
     width: 290px;
     height: 200px;
+    position: absolute;
 
 }
 
 .robert {
 
-	margin: -210px 325px;
+	margin: 5px 325px;
     float:left;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.7px);
     width: 290px;
     height: 200px;
+    position: absolute;
 }
 
 .divgol{
@@ -520,7 +525,7 @@ font-size: 36px;
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width:1024px) {
 
 	.swiperdiv {
 
@@ -558,9 +563,15 @@ font-size: 36px;
 }
 
 @media (min-width: 1300px) and (max-width: 1900px) {
+            body {
+
+            	background-image: none;
+            }
+
             .swiperdiv {
                 margin-right: 5%;
                 margin-left: 5%;
+
             }
 
             .releases {
@@ -579,8 +590,71 @@ font-size: 36px;
             .sponsors  {
                margin-left: 40%;
                margin-bottom: 10%;
+               margin: -200px 640px;
             }
+
+                      .robert {
+
+	margin: 10px 325px;
+    float:left;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    width: 290px;
+    height: 200px;
+    position: absolute;
+}
 
         }
 
+@media (min-width: 800px) and (max-width: 1290px) {
+            body {
+
+            	background-image: none;
+            }
+
+            .swiperdiv {
+                display: none;
+            }
+
+            .releases {
+                margin-right: 10%;
+                margin-top: 50px;
+                padding: 0 10px;
+            }
+
+            .news {
+                margin-left: 10%;
+                width: 80%;
+                margin-top: 50px;
+                padding: 0 10px;
+            }
+
+            .sponsors  {
+               margin-left: 38%;
+               margin-bottom: 10%;
+               position: absolute;;
+            }
+
+            .robert {
+
+	margin: 10px 325px;
+    float:left;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    width: 290px;
+    height: 200px;
+    position: absolute;
+}
+
+            .textsponsors {
+
+            	margin: 10px 50px;
+
+
+
+            }
+
+        }
 
